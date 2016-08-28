@@ -1,17 +1,38 @@
 {
-  "name": "bitcore-node",
-  "description": "Full node with extended capabilities using Bitcore and Bitcoin Core",
+  "name": "bitcore-node-zcash",
+  "description": "Full node with extended capabilities using Bitcore and Zcash",
   "engines": {
     "node": ">=8.0.0"
   },
   "author": "BitPay <dev@bitpay.com>",
   "version": "5.0.0-beta.44",
   "main": "./index.js",
-  "repository": "git://github.com/bitpay/bitcore-node.git",
-  "homepage": "https://github.com/bitpay/bitcore-node",
+  "repository": "git://github.com/str4d/bitcore-node-zcash.git",
+  "homepage": "https://github.com/str4d/bitcore-node-zcash",
   "bugs": {
     "url": "https://github.com/bitpay/bitcore-node/issues"
   },
+  "contributors": [
+    {
+      "name": "Christopher Jeffrey"
+    },
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Chris Kleeschulte",
+      "email": "chrisk@bitpay.com"
+    },
+    {
+      "name": "Patrick Nagurny",
+      "email": "patrick@bitpay.com"
+    },
+    {
+      "name": "Jack Grigg",
+      "email": "jack@z.cash"
+    }
+  ],
   "bin": {
     "bitcore-node": "./bin/bitcore-node"
   },
@@ -19,13 +40,8 @@
     "test": "NODE_ENV=test mocha -R spec --recursive test"
   },
   "tags": [
-    "bitcoin",
-    "bitcoind",
-    "bcoin",
-    "bitcoin full node",
-    "bitcoin index",
-    "block explorer",
-    "wallet backend"
+    "zcash",
+    "zcashd"
   ],
   "dependencies": {
     "async": "^2.5.0",
