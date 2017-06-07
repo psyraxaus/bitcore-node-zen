@@ -33,7 +33,7 @@ describe('#create', function() {
       if (err) {
         throw err;
       }
-      mkdirp(testDir + '/.zcash', function(err) {
+      mkdirp(testDir + '/.zen', function(err) {
         if (err) {
           throw err;
         }
@@ -104,7 +104,7 @@ describe('#create', function() {
       dirname: 'mynode3',
       name: 'My Node 3',
       isGlobal: true,
-      datadir: '../.zcash'
+      datadir: '../.zen'
     }, function(err) {
       if (err) {
         throw err;
@@ -139,7 +139,7 @@ describe('#create', function() {
       dirname: 'mynode4',
       name: 'My Node 4',
       isGlobal: false,
-      datadir: '../.zcash'
+      datadir: '../.zen'
     }, function(err) {
       should.exist(err);
       err.message.should.equal('There was an error installing dependencies.');

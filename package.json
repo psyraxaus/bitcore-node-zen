@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-node-zcash",
+  "name": "bitcore-node-zen",
   "description": "Full node with extended capabilities using Bitcore and Zcash",
   "engines": {
     "node": ">=8.0.0"
@@ -7,8 +7,8 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "5.0.0-beta.44",
   "main": "./index.js",
-  "repository": "git://github.com/str4d/bitcore-node-zcash.git",
-  "homepage": "https://github.com/str4d/bitcore-node-zcash",
+  "repository": "git://github.com/aayanl/bitcore-node-zen.git",
+  "homepage": "https://github.com/aayanl/bitcore-node-zen",
   "bugs": {
     "url": "https://github.com/bitpay/bitcore-node/issues"
   },
@@ -44,14 +44,14 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "tags": [
-    "zcash",
-    "zcashd"
+    "zen",
+    "zend"
   ],
   "dependencies": {
     "async": "^2.5.0",
     "bcoin": "bitpay/bcoin#v1.0.0-beta.14+cash",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-zcash": "str4d/bitcore-lib-zcash",
+    "bitcore-lib-zen": "aayanl/bitcore-lib-zen",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
