@@ -1,17 +1,20 @@
 {
   "name": "bitcore-node-zen",
-  "description": "Full node with extended capabilities using Bitcore and Zcash",
+  "description": "Full node with extended capabilities using Bitcore and ZenCash",
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.2",
   "main": "./index.js",
-  "repository": "git://github.com/aayanl/bitcore-node-zen.git",
-  "homepage": "https://github.com/aayanl/bitcore-node-zen",
+  "repository": "git://github.com/zencashofficial/bitcore-node-zen.git",
+  "homepage": "https://github.com/zencashofficial/bitcore-node-zen",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-node/issues"
+    "url": "https://github.com/zencashofficial/bitcore-node-zen/issues"
   },
   "contributors": [
     {
       "name": "Christopher Jeffrey"
+    },
+    {
+      "name": "Aayanl"
     },
     {
       "name": "Braydon Fuller",
@@ -47,7 +50,7 @@
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-zen": "aayanl/bitcore-lib-zen",
+    "bitcore-lib-zen": "zencashofficial/bitcore-lib-zen",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
