@@ -7,10 +7,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "5.0.0-beta.44",
   "main": "./index.js",
-  "repository": "git://github.com/zencashofficial/bitcore-node-zen.git",
-  "homepage": "https://github.com/zencashofficial/bitcore-node-zen",
+  "repository": "git://github.com/ZencashOfficial/bitcore-node-zen.git",
+  "homepage": "https://github.com/ZencashOfficial/bitcore-node-zen",
   "bugs": {
-    "url": "https://github.com/zencashofficial/bitcore-node-zen/issues"
+    "url": "https://github.com/ZencashOfficial/bitcore-node-zen/issues"
   },
   "contributors": [
     {
@@ -54,7 +54,7 @@
     "async": "^2.5.0",
     "bcoin": "bitpay/bcoin#v1.0.0-beta.14+cash",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-zen": "zencashofficial/bitcore-lib-zen",
+    "bitcore-lib-zen": "ZencashOfficial/bitcore-lib-zen",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
