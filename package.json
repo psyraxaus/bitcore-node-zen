@@ -76,7 +76,7 @@
     "zeromq": "^5.1.0"
   },
   "optionalDependencies": {
-    "bufferutil": "~1.2.1",
+    "bufferutil": "~4.0.1",
     "utf-8-validate": "~5.0.2"
   },
   "devDependencies": {
