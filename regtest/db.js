@@ -8,7 +8,7 @@ var utils = require('./utils');
 var zmq = require('zmq');
 var http = require('http');
 var blocks = require('../test/data/blocks.json');
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-zen');
 var Block = bitcore.Block;
 var BufferUtil = bitcore.util.buffer;
 

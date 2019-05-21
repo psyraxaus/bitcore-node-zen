@@ -1,6 +1,6 @@
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-zen');
 var _ = require('lodash');
 var mkdirp = require('mkdirp');
 var rimraf = require('rimraf');

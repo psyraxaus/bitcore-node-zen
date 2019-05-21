@@ -1,7 +1,7 @@
 'use strict';
 
 var expect = require('chai').expect;
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-zen');
 var DB = require('../../../lib/services/db');
 
 describe('DB', function() {

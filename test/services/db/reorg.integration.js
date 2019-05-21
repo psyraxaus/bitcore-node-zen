@@ -2,7 +2,7 @@
 
 var should = require('chai').should();
 var sinon = require('sinon');
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-zen');
 var BufferUtil = bitcore.util.buffer;
 var DB = require('../../../lib/services/db');
 var Networks = bitcore.Networks;
