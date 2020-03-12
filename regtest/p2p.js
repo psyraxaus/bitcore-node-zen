@@ -63,13 +63,13 @@ describe('P2P Functionality', function() {
         log.error('error="%s"', err.message);
       });
 
-      log.info('Waiting for Zcash to initialize...');
+      log.info('Waiting for Horizen to initialize...');
 
       bitcoind.start(function(err) {
         if (err) {
           throw err;
         }
-        log.info('Zcashd started');
+        log.info('Zend started');
 
         client = new BitcoinRPC({
           protocol: 'http',
