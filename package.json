@@ -48,7 +48,7 @@
     "zend"
   ],
   "dependencies": {
-    "async": "3.20",
+    "async": "3.2.0",
     "bitcoind-rpc": "^0.6.0",
     "bitcore-lib-zen": "psyraxaus/bitcore-lib-zen",
     "body-parser": "1.19.0",
