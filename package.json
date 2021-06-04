@@ -50,7 +50,7 @@
   "dependencies": {
     "async": "3.2.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-zen": "psyraxaus/bitcore-lib-zen",
+    "bitcore-lib-zen": "psyraxaus/bitcore-lib-zen#psyraxaus/updateEllipLodash",
     "body-parser": "1.19.0",
     "colors": "1.4.0",
     "commander": "6.1.0",
